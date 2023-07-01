@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    width: calc(100% - 200px * 2);
+    margin: 45px auto 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
+}
+
+@media screen and (max-width: 1050px) {
+    .header {
+        width: calc(100% - 150px * 2);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .header {
+        width: calc(100% - 100px * 2);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header {
+        width: calc(100% - 60px * 2);
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .header {
+        width: calc(100% - 20px * 2);
+    }
+}
+
+@media screen and (max-width: 595px) {
+    .header {
+        width: 100%;
+        margin-top: 28px;
+    }
+}
